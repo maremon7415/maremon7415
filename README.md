@@ -39,8 +39,8 @@
 
 ### 📈 GitHub Stats
 
-![Emon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=maremon15&show_icons=true&theme=react)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maremon15&layout=compact&theme=react)
+![Emon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=react)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=react)
 
 ---
 
