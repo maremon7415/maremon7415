@@ -8,58 +8,69 @@
 ---
 
 ### 👨‍💻 About Me
-- 🌱 Currently focused on **React.js, Node.js, Express.js, MongoDB**
-- 🚀 Passionate about building **responsive & user-friendly web apps**
-- 💡 Interested in **open-source contributions** and **real-world projects**
-- 📫 Reach me: **emon747415@gmail.com**
-- ⚡ Fun fact: Coffee keeps me coding ☕💻  
+- 🌱 Currently working with **React.js**, **Node.js**, **Express.js**, and **MongoDB**
+- 🚀 Passionate about building **modern, responsive, and high-performance web apps**
+- 💡 Enthusiastic about **open-source projects** and **continuous learning**
+- 📫 Reach me at **emon747415@gmail.com**
+- ⚡ Fun fact: I believe great design and clean code go hand-in-hand
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Frontend**: React, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, GSAP  
-**Backend**: Node.js, Express.js, REST API  
-**Database**: MongoDB, Atlas  
-**Tools**: Git, GitHub, Postman, VS Code, Vercel, Render  
-**Other**: Responsive Design, UI/UX basics, Debugging  
+**Frontend:** React, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Bootstrap, GSAP  
+**Backend:** Node.js, Express.js, REST API  
+**Database:** MongoDB, Atlas  
+**Tools:** Git, GitHub, Postman, VS Code, Vercel, Render  
+**Other:** Responsive Design, UI/UX Basics, Debugging
 
 ---
 
-### 📌 Featured Projects  
+### 💼 Featured Projects
 
-- **[Portfolio Website](https://github.com/maremon7415/Portfolio)**  
-  Modern responsive portfolio built with **React + Tailwind CSS + GSAP**, integrated with **EmailJS** for contact form.  
-  🔗 [Live Demo](https://your-portfolio-live-link.vercel.app)  
-
-- **[E-commerce Website (MERN)](https://github.com/maremon7415/Ecommerce)** *(Almost Done)*  
-  Full-stack MERN application with product listing, cart, checkout, authentication, and admin panel.  
-  🔗 [Live Demo (Coming Soon)]()  
+#### 🗨️ [Chit-Chat (Chatify)](https://chitchat-1h8wz.sevalla.app/)
+A real-time chat application built with **React**, **Tailwind CSS**, **Node.js**, and **Socket.io**.  
+Seamless live messaging with a clean UI — deployed on **Savella**.  
+🔗 [GitHub Repository](https://emondev.netlify.app/)
 
 ---
 
-### 📊 GitHub Insights  
+#### 💻 [Portfolio Website](https://github.com/maremon7415/Portfolio)
+A modern, fully responsive portfolio built with **React + Tailwind CSS + GSAP**, featuring **EmailJS** integration for contact.  
+🔗 [Live Demo](https://your-portfolio-live-link.vercel.app)
+
+---
+
+#### 🛍️ [E-commerce Website (MERN)](https://github.com/maremon7415/Ecommerce)
+A full-stack **MERN** application with product listings, authentication, cart, and admin dashboard.  
+🔗 Live Demo:  
+Frontend → [myshop-frontend](https://myshop-frontend-puce.vercel.app)  
+Admin Panel → [myshop-admin](https://myshop-admin-taupe.vercel.app/)
+
+---
+
+### 📊 GitHub Insights
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=transparent&hide_border=true" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=maremon7415&theme=transparent&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=transparent&hide_border=true" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=maremon7415&theme=transparent&hide_border=true" height="160" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=transparent&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=transparent&hide_border=true" height="160" />
 </p>
 
 ---
 
-### 🌱 Current Focus
-- Deepening knowledge of **advanced React patterns** & **state management**
-- Exploring **cloud deployment** and **scalable architectures**
-- Working on **real-world MERN stack projects**
-- Preparing for **internship opportunities**  
+### 🎯 Current Focus
+- Mastering **advanced React patterns** and **state management**
+- Learning about **cloud deployment** and **scalable architectures**
+- Building more **real-world MERN stack projects**
+- Preparing for **internship and professional opportunities**
 
 ---
 
-### 🤝 Connect with Me  
+### 🌐 Connect with Me
 
 <p align="center">
   <a href="https://linkedin.com/in/maremon7415"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge"/></a>
