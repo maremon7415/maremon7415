@@ -235,31 +235,23 @@ Exploring new technologies and building innovative solutions. Always learning, a
 <br/>
 
 <!-- GitHub Stats Section -->
+
 <div align="center">
 
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"> **GitHub Analytics**
 
+<img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10" alt="GitHub Stats" />
+<img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=maremon7415&theme=tokyonight&hide_border=true&background=0D1117&stroke=0000&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&border_radius=10" alt="GitHub Streak Stats" />
+
+<img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10&langs_count=8" alt="Top Languages" />
+<img width="49%" height="195px" src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true&border_radius=10" alt="Contribution Graph" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maremon7415&theme=github_dark" width="100%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=maremon7415&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
+
 </div>
 
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10" alt="GitHub Stats" /> 
-  <img width="49%" height="195px" src="https://streak-stats.demolab.com?user=maremon7415&theme=dark&hide_border=true&background=0D1117&stroke=0000&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&border_radius=10" alt="GitHub Streak Stats" />
-</div>
-
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&hide_border=true&title_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10&langs_count=8" alt="Top Languages" />
-  <img width="49%" height="195px" src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true&border_radius=10" alt="Contribution Graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=maremon7415&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
-</div>
-
-<br/>
-
----
-
-<br/>
 
 <!-- Learning Journey -->
 <div align="center">
