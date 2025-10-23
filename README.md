@@ -1,214 +1,199 @@
 <div align="center">
 
-# 『 MD. EMON MIAH 』
+# MD. EMON MIAH
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Full-Stack%20Architect&fontSize=42&fontAlignY=32&desc=Crafting%20Digital%20Experiences%20with%20MERN&descSize=16&descAlignY=51&animation=twinkling" width="100%"/>
+### Full-Stack Developer | MERN Stack Specialist
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=header&fontSize=0" width="100%"/>
 
-```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║  ⚡ MERN Stack Developer | Code Craftsman | Problem Solver   ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Building+Scalable+Web+Solutions;Passionate+About+Clean+Code;MERN+Stack+Enthusiast)](https://git.io/typing-svg)
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&random=false&width=700&lines=Building+Scalable+Web+Applications;Turning+Ideas+into+Reality;Clean+Code+%7C+Modern+Architecture;Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
+[![Email](https://img.shields.io/badge/emon747415%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:emon747415@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/maremon7415-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/maremon7415)
+[![Portfolio](https://img.shields.io/badge/emondev.netlify.app-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://emondev.netlify.app/)
+![Profile Views](https://komarev.com/ghpvc/?username=maremon7415&color=667eea&style=flat-square)
 
 </div>
 
 ---
 
-## 🌊 **ABOUT ME**
+## 👨‍💻 About Me
 
-```typescript
-const emon = {
-    location: "Dhaka, Bangladesh 🇧🇩",
-    current_focus: ["Advanced React Patterns", "System Design", "Cloud Architecture"],
-    coding_philosophy: "Write code that tells a story, not a mystery",
-    ask_me_about: ["MERN Stack", "Web Performance", "UI/UX", "RESTful APIs"],
-    fun_fact: "I debug with console.log() and I'm not ashamed 😎"
+```javascript
+const developer = {
+    name: "MD. Emon Miah",
+    location: "Dhaka, Bangladesh",
+    role: "Full-Stack Developer",
+    expertise: ["MERN Stack", "RESTful APIs", "Modern Web Development"],
+    currentFocus: ["Advanced React Patterns", "System Design", "Cloud Architecture"],
+    education: "Computer Science & Engineering",
+    availability: "Open to Internship Opportunities"
 };
 ```
 
-<div align="center">
-
-### 💬 **GET IN TOUCH**
-
-[![Email](https://img.shields.io/badge/Email-emon747415%40gmail.com-00F7FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a)](mailto:emon747415@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-maremon7415-00F7FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a)](https://linkedin.com/in/maremon7415)
-[![Portfolio](https://img.shields.io/badge/Portfolio-emondev.netlify.app-00F7FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1a1a1a)](https://emondev.netlify.app/)
-
-</div>
+I'm a passionate **MERN Stack Developer** dedicated to creating elegant, scalable web applications. With a strong foundation in modern JavaScript frameworks and backend technologies, I transform ideas into production-ready solutions. Currently seeking opportunities to contribute to innovative projects and grow as a professional developer.
 
 ---
 
-## 🛠️ **ARSENAL**
+## 🛠️ Technical Skills
 
-<div align="center">
-
-### Frontend Mastery
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-
-### Backend Power
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### Tools & Workflow
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-</div>
-
----
-
-## 🚀 **FEATURED PROJECTS**
-
-<table align="center">
+<table>
 <tr>
 <td width="50%" valign="top">
 
-### 💬 Chit-Chat (Chatify)
-**Real-Time Communication Platform**
-
-- ⚡ Built with React, Tailwind CSS & Socket.io
-- 🔐 Secure authentication system
-- 💨 Lightning-fast message delivery
-- 🎨 Clean, intuitive interface
-
-🔗 **[Live Demo](https://chitchat-1h8wz.sevalla.app/)** | **[Code](https://github.com/maremon7415)**
+**Frontend Development**
+- React.js (Hooks, Context API, Performance Optimization)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Tailwind CSS & Modern UI Frameworks
+- GSAP Animations
+- Responsive Design & Mobile-First Approach
 
 </td>
 <td width="50%" valign="top">
 
-### 🛍️ E-Commerce Platform
-**Full-Stack MERN Application**
-
-- 🛒 Complete shopping cart functionality
-- 👤 JWT authentication & authorization
-- 📊 Admin dashboard for management
-- 💳 Secure payment integration
-
-🔗 **[Frontend](https://myshop-frontend-puce.vercel.app)** | **[Admin](https://myshop-admin-taupe.vercel.app/)**
+**Backend Development**
+- Node.js & Express.js
+- MongoDB & Database Design
+- RESTful API Development
+- Authentication & Authorization (JWT)
+- Server-Side Logic & Business Rules
+- API Security Best Practices
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💼 Portfolio Website
-**Modern Developer Showcase**
-
-- ✨ GSAP animations & smooth scrolling
-- 📧 EmailJS contact integration
-- 📱 Fully responsive design
-- 🎯 Performance optimized
-
-🔗 **[View Live](https://emondev.netlify.app/)** | **[Repository](https://github.com/maremon7415/Portfolio)**
+**Development Tools**
+- Git & GitHub (Version Control)
+- VS Code
+- Postman (API Testing)
+- npm & Package Management
+- Chrome DevTools
 
 </td>
 <td width="50%" valign="top">
 
-### 🔮 More Coming Soon...
-**Always Building, Always Learning**
-
-Currently working on:
-- 🤖 AI-powered tools
-- 📱 Mobile-first applications
-- ☁️ Cloud-native solutions
-
-🔗 **[Explore More](https://github.com/maremon7415?tab=repositories)**
+**Deployment & Hosting**
+- Vercel
+- Netlify
+- Render
+- Environment Configuration
+- CI/CD Basics
 
 </td>
 </tr>
 </table>
 
----
-
-## 📊 **GITHUB ANALYTICS**
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff&ring_color=00F7FF" height="170" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=maremon7415&theme=tokyonight&hide_border=true&background=0D1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff" height="170" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=ffffff&langs_count=8" height="170" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F7FF&line=00F7FF&point=ffffff&area=true&custom_title=Contribution%20Graph" height="170"/>
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 </div>
 
 ---
 
-## 🎯 **CURRENT MISSION**
+## 🚀 Featured Projects
 
-<div align="center">
+### 💬 Chit-Chat (Real-Time Chat Application)
+**Technologies:** React, Tailwind CSS, Socket.io, Node.js, Express, MongoDB
 
-```mermaid
-%%{init: {'theme':'dark'}}%%
-graph LR
-    A[Learning] --> B[Building]
-    B --> C[Deploying]
-    C --> D[Iterating]
-    D --> A
-    style A fill:#00F7FF,stroke:#00F7FF,color:#000
-    style B fill:#00F7FF,stroke:#00F7FF,color:#000
-    style C fill:#00F7FF,stroke:#00F7FF,color:#000
-    style D fill:#00F7FF,stroke:#00F7FF,color:#000
-```
+A modern real-time communication platform featuring instant messaging, user authentication, and a clean, intuitive interface. Implemented WebSocket connections for seamless real-time updates and designed with security best practices.
 
-</div>
+**Key Features:**
+- Real-time bidirectional communication
+- JWT-based authentication system
+- Responsive UI with Tailwind CSS
+- Optimized message delivery
 
-- 🔥 Mastering **Advanced React Patterns** (Context, Hooks, Performance)
-- ☁️ Exploring **AWS & Cloud Deployment** strategies
-- 🏗️ Building **production-ready MERN applications**
-- 📚 Deep diving into **System Design** & **Architecture**
-- 🤝 Seeking **internship opportunities** to grow professionally
+🔗 [Live Demo](https://chitchat-1h8wz.sevalla.app/) | [View Code](https://github.com/maremon7415)
 
 ---
 
-## 🌐 **CONNECT WITH ME**
+### 🛍️ E-Commerce Platform (Full-Stack Solution)
+**Technologies:** MERN Stack, JWT Authentication, Payment Integration
+
+A comprehensive e-commerce platform with separate customer and admin interfaces. Features include product management, shopping cart functionality, secure checkout, and a complete admin dashboard for business operations.
+
+**Key Features:**
+- Complete product catalog with search and filtering
+- Secure user authentication and authorization
+- Shopping cart with persistent state
+- Admin dashboard for inventory and order management
+- Payment gateway integration
+
+🔗 [Customer Portal](https://myshop-frontend-puce.vercel.app) | [Admin Dashboard](https://myshop-admin-taupe.vercel.app/)
+
+---
+
+### 💼 Professional Portfolio Website
+**Technologies:** React, GSAP, EmailJS, Modern CSS
+
+A performance-optimized portfolio showcasing projects and skills with smooth animations and engaging user experience. Features email integration for direct communication and responsive design for all devices.
+
+**Key Features:**
+- Smooth scroll animations with GSAP
+- Interactive project showcases
+- Contact form with EmailJS integration
+- Fully responsive across all devices
+- Performance-optimized loading
+
+🔗 [View Live](https://emondev.netlify.app/) | [Source Code](https://github.com/maremon7415/Portfolio)
+
+---
+
+## 📊 GitHub Statistics
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/maremon7415)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maremon7415)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/maremon7415)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://emondev.netlify.app/)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=radical&hide_border=true&bg_color=1F222E&title_color=667eea&icon_color=667eea&text_color=c9d1d9" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=maremon7415&theme=radical&hide_border=true&background=1F222E&ring=667eea&fire=667eea&currStreakLabel=667eea" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=radical&hide_border=true&bg_color=1F222E&title_color=667eea&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&theme=github-compact&hide_border=true&bg_color=1F222E&color=667eea&line=764ba2&point=c9d1d9&area=true&custom_title=Contribution%20Activity" />
 
 </div>
 
 ---
 
+## 🎯 Current Focus
+
+- 📚 Deepening knowledge in **Advanced React Patterns** and state management
+- ☁️ Exploring **AWS** and modern cloud deployment strategies
+- 🏗️ Learning **System Design** principles and architectural patterns
+- 🔐 Studying **Web Security** and authentication best practices
+- 🤝 Seeking **internship opportunities** to apply skills in real-world projects
+
+---
+
+## 📫 Let's Connect
+
 <div align="center">
 
-### 💭 **PHILOSOPHY**
+I'm always interested in collaborating on innovative projects and discussing web development. Feel free to reach out!
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  "Any fool can write code that a computer can understand.  │
-│   Good programmers write code that humans can understand." │
-│                                                             │
-│                           — Martin Fowler                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/maremon7415)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:emon747415@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://emondev.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maremon7415)
 
-### ⭐ **Thanks for stopping by — Let's build something amazing together!** ⭐
+<br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=maremon7415&color=00F7FF&style=for-the-badge&label=PROFILE+VIEWS)
+> *"Code is like humor. When you have to explain it, it's bad."* – Cory House
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<br/>
+
+**Thank you for visiting my profile! Let's build something great together.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=100&section=footer" width="100%"/>
 
 </div>
