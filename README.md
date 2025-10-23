@@ -4,9 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=MD.%20EMON%20MIAH&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20MERN%20Stack%20Specialist&descSize=18&descAlignY=55" width="100%"/>
 
 <!-- Animated typing effect -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=800&height=60&lines=💻+Building+Scalable+Web+Applications;🚀+Turning+Ideas+Into+Reality;⚡+Clean+Code+%7C+Modern+Architecture;🎯+Always+Learning+%7C+Always+Building" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=800&height=60&lines=💻+Building+Scalable+Web+Applications;🚀+Turning+Ideas+Into+Reality;⚡+Clean+Code+%7C+Modern+Architecture;🎯+Always+Learning+%7C+Always+Building)](https://git.io/typing-svg)
 
 <!-- Social badges with custom styling -->
 <p>
@@ -244,8 +242,8 @@ Exploring new technologies and building innovative solutions. Always learning, a
 </div>
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10" alt="Emon Miah GitHub Stats" /> 
-  <img width="49%" height="195px" src="https://github-readme-streak-stats.herokuapp.com/?user=maremon7415&theme=dark&hide_border=true&stroke=0000&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&border_radius=10" alt="Emon Miah Streak Stats" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&count_private=true&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=c9d1d9&bg_color=0d1117&border_radius=10" alt="GitHub Stats" /> 
+  <img width="49%" height="195px" src="https://streak-stats.demolab.com?user=maremon7415&theme=dark&hide_border=true&background=0D1117&stroke=0000&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&border_radius=10" alt="GitHub Streak Stats" />
 </div>
 
 <div align="center">
