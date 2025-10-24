@@ -251,9 +251,6 @@ Exploring new technologies and building innovative solutions. Always learning, a
   <img width="49%" height="195px" src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true&border_radius=10" alt="Contribution Graph" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=maremon7415&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="Trophy" />
-</div>
 
 <br/>
 
