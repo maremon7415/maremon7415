@@ -158,7 +158,7 @@ Performance-optimized portfolio featuring smooth GSAP animations, interactive el
 **🔧 Tech Stack:** React.js · GSAP · EmailJS · TailwindCSS · Performance Optimized
 
 [![Live Site](https://img.shields.io/badge/🌐_Visit_Portfolio-4ECDC4?style=for-the-badge&logo=netlify&logoColor=white)](https://emondev.netlify.app/)
-[![Source](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maremon7415/Portfolio)
+[![Source](https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maremon7415/portfolio_next)
 
 ---
 
