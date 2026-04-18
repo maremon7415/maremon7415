@@ -1,11 +1,11 @@
 <div align="center">
 
-# 👋 Hi, I'm Emon Miah
+# 👋 Hi, I'm MD. Emon Miah
 
-### Front-End Developer | React & Next.js Specialist
+### Full-Stack Developer | Next.js & React Specialist
 
 <p>
-  <a href="mailto:emon747415@gmail.com">
+  <a href="mailto:dev@emon.pro">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://github.com/maremon7415">
@@ -14,12 +14,12 @@
   <a href="https://linkedin.com/in/maremon7415">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://emondev.netlify.app/">
+  <a href="https://emon.pro">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"/>
   </a>
 </p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;React+%26+Next.js+Expert;Building+Scalable+Solutions;Clean+Code+Enthusiast" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+(MERN);Next.js+%26+React+Specialist;Building+Scalable+AI+Solutions;Pixel+Perfect+UI+Enthusiast" alt="Typing SVG" />
 
 </div>
 
@@ -27,13 +27,12 @@
 
 ## 🚀 About Me
 
-I'm a **passionate Full-Stack Developer** specializing in modern web technologies, with a focus on creating **intuitive, performant, and scalable applications**. Currently pursuing my B.Sc. in Computer Science while building real-world solutions that solve actual problems.
+I am a highly effective **Full-Stack Web Developer** specializing in modern web technologies. With professional experience as a **Front-End Developer at Lilium Info Tech**, I focus on building scalable, high-performance applications with the **MERN stack**, AI integration, and pixel-perfect user interfaces.
 
-- 🔭 Currently working on AI-powered healthcare platforms
-- 🌱 Deepening my expertise in TypeScript and PostgreSQL
-- 💡 Passionate about clean code, UI/UX, and performance optimization
-- 🎯 Goal: Contributing to impactful open-source projects
-- 📍 Based in Dhaka, Bangladesh
+- 🔭 **Currently**: Implementing real-time features and AI-powered solutions.
+- ⚡ **Expertise**: Next.js (App Router), TypeScript, and high-performance animations.
+- 🎨 **UI/UX**: Passionate about smooth interactions using GSAP and Framer Motion.
+- 📍 **Based in**: Dhaka, Bangladesh.
 
 ---
 
@@ -41,24 +40,25 @@ I'm a **passionate Full-Stack Developer** specializing in modern web technologie
 
 <div align="center">
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+### Frontend & Design
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 
 ### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-### Tools & Technologies
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### AI & Productivity Tools
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 </div>
 
@@ -71,76 +71,60 @@ I'm a **passionate Full-Stack Developer** specializing in modern web technologie
 <td width="50%">
 
 ### 🦷 Dent-Assist
-AI-powered dental management platform with comprehensive appointment scheduling, doctor onboarding, and administrative controls.
+AI-powered dental solution featuring an AI assistant, doctor registration, and appointment booking.
 
-**Tech Stack:** Next.js • PostgreSQL • Tailwind CSS • Clerk Auth
+**Tech:** Next.js • PostgreSQL • Tailwind • Clerk
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://dent-assist.vercel.app)
-[![Code](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/maremon7415/dent-assist)
-
-**Key Features:**
-- 📅 Smart appointment booking system
-- 👨‍⚕️ Doctor credential verification
-- 📊 Admin dashboard with analytics
-- 🔐 Secure authentication
+[![Live](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://dent-assist.vercel.app)
 
 </td>
 <td width="50%">
 
 ### ⚽ BOE Gaming Club
-Full-stack football gaming club platform featuring smooth animations and comprehensive user management.
+Full-stack gaming club platform with tournament management and smooth Framer Motion transitions.
 
-**Tech Stack:** Next.js • MongoDB • Tailwind CSS • Framer Motion
+**Tech:** Next.js • MongoDB • Framer Motion
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://boe-gaming-club.vercel.app)
-[![Code](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/maremon7415/boe-gaming-club)
-
-**Key Features:**
-- 🎮 Interactive gaming interface
-- ✨ Advanced animations with Framer Motion
-- 👥 User profile management
-- 📱 Fully responsive design
+[![Live](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://boe-gaming-club.vercel.app)
 
 </td>
 </tr>
-
 <tr>
 <td width="50%">
 
 ### 💬 Chit-Chat
-Real-time messaging application enabling instant bidirectional communication with modern UI.
+Real-time messaging application with live bidirectional communication and a modern UI.
 
-**Tech Stack:** React • Node.js • Socket.io • Tailwind CSS
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://chit-chat-app.vercel.app)
-[![Code](https://img.shields.io/badge/View-Code-black?style=for-the-badge&logo=github)](https://github.com/maremon7415/chit-chat)
-
-**Key Features:**
-- ⚡ Real-time messaging
-- 🔔 Live notifications
-- 👤 User status indicators
-- 🎨 Clean, intuitive interface
+**Tech:** React • Socket.io • Node.js • Tailwind
 
 </td>
 <td width="50%">
 
-### 🛒 E-Commerce Platform
-Complete MERN stack e-commerce solution with shopping cart, secure checkout, and admin panel.
+### 🛒 E-Commerce
+Robust full-stack shopping platform with secure checkout, auth, and payment integration.
 
-**Tech Stack:** React • Express.js • MongoDB • JWT
-
-[![Frontend](https://img.shields.io/badge/View-Frontend-blue?style=for-the-badge&logo=github)](https://github.com/maremon7415/ecommerce-frontend)
-[![Admin](https://img.shields.io/badge/View-Admin-orange?style=for-the-badge&logo=github)](https://github.com/maremon7415/ecommerce-admin)
-
-**Key Features:**
-- 🛍️ Product catalog & search
-- 🛒 Shopping cart functionality
-- 💳 Secure payment integration
-- 📦 Order management system
+**Tech:** Next.js • MERN Stack • Redux
 
 </td>
 </tr>
 </table>
+
+---
+
+## 💼 Experience
+
+- **Front-End Web Developer** | *Lilium Info Tech* (2024 - 2025)
+  - Developed scalable UI using Next.js/Tailwind.
+  - Focused on pixel-perfect designs and GSAP animations.
+- **Full-Stack Web Developer Intern** | *IBCSX PRIMEx*
+  - Worked on PHP/Laravel backend systems and bug fixing.
+
+---
+
+## 🎓 Education
+
+- **B.Sc. in Computer Science & Technology** | *Bangladesh University* (Expected 2028)
+- **Diploma in Computer Science & Engineering** | *Habiganj Polytechnic Institute* (2024)
 
 ---
 
@@ -151,48 +135,14 @@ Complete MERN stack e-commerce solution with shopping cart, secure checkout, and
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=maremon7415&theme=tokyonight&hide_border=true" height="170"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</div>
-
----
-
-## 🎓 Education
-
-**B.Sc. in Computer Science & Technology**  
-📍 Bangladesh University | 🗓️ Expected 2028
-
-**Diploma in Computer Science & Engineering**  
-📍 Habiganj Polytechnic Institute | 🗓️ 2024
-
----
-
-## 💼 Experience
-
-**Full-Stack Web Developer Intern**  
-🏢 IBCSX PRIMEx | 📅 3 Months
-
-- Developed and maintained web applications using PHP and Laravel
-- Built and integrated RESTful APIs
-- Collaborated with cross-functional teams on project delivery
-
 ---
 
 ## 📫 Let's Connect!
 
+- **Email:** dev@emon.pro
+- **Portfolio:** [emon.pro](https://emon.pro)
+- **Languages:** Bengali (Native), Hindi (Native), English (Intermediate)
+
 <div align="center">
-
-I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-
-**📧 Email:** emon747415@gmail.com  
-**🌐 Portfolio:** [emondev.netlify.app](https://emondev.netlify.app/)
-
 <img src="https://komarev.com/ghpvc/?username=maremon7415&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-
----
-
-### 💭 *"Consistency beats talent. Building daily, learning always."*
-
-⭐️ From [maremon7415](https://github.com/maremon7415)
-
 </div>
