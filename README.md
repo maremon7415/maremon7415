@@ -14,7 +14,7 @@
   <a href="https://linkedin.com/in/maremon7415">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://emon.pro">
+  <a href="http://www.emon.pro">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"/>
   </a>
 </p>
@@ -54,12 +54,6 @@ I am a highly effective **Full-Stack Web Developer** specializing in modern web 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-### AI & Productivity Tools
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
-
 </div>
 
 ---
@@ -71,21 +65,21 @@ I am a highly effective **Full-Stack Web Developer** specializing in modern web 
 <td width="50%">
 
 ### 🦷 Dent-Assist
-AI-powered dental solution featuring an AI assistant, doctor registration, and appointment booking.
+Full-stack dental solution featuring an **AI assistant**, doctor registration, and booking system.
 
 **Tech:** Next.js • PostgreSQL • Tailwind • Clerk
 
-[![Live](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://dent-assist.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](http://dent-assist.emon.pro)
 
 </td>
 <td width="50%">
 
 ### ⚽ BOE Gaming Club
-Full-stack gaming club platform with tournament management and smooth Framer Motion transitions.
+Full-stack football gaming club platform with tournament management and smooth transitions.
 
 **Tech:** Next.js • MongoDB • Framer Motion
 
-[![Live](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://boe-gaming-club.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](http://boebd.xyz)
 
 </td>
 </tr>
@@ -93,17 +87,21 @@ Full-stack gaming club platform with tournament management and smooth Framer Mot
 <td width="50%">
 
 ### 💬 Chit-Chat
-Real-time messaging application with live bidirectional communication and a modern UI.
+Real-time messaging application with seamless live bidirectional communication.
 
 **Tech:** React • Socket.io • Node.js • Tailwind
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](https://chitchat-1h8wz.sevalla.app)
 
 </td>
 <td width="50%">
 
-### 🛒 E-Commerce
-Robust full-stack shopping platform with secure checkout, auth, and payment integration.
+### 🛒 ShopHub
+Robust e-commerce platform with product listing, cart, secure checkout, and payment integration.
 
 **Tech:** Next.js • MERN Stack • Redux
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=flat-square)](http://shophub.emon.pro)
 
 </td>
 </tr>
@@ -117,7 +115,7 @@ Robust full-stack shopping platform with secure checkout, auth, and payment inte
   - Developed scalable UI using Next.js/Tailwind.
   - Focused on pixel-perfect designs and GSAP animations.
 - **Full-Stack Web Developer Intern** | *IBCSX PRIMEx*
-  - Worked on PHP/Laravel backend systems and bug fixing.
+  - Worked on PHP/Laravel backend systems and modern JavaScript.
 
 ---
 
@@ -140,7 +138,7 @@ Robust full-stack shopping platform with secure checkout, auth, and payment inte
 ## 📫 Let's Connect!
 
 - **Email:** dev@emon.pro
-- **Portfolio:** [emon.pro](https://emon.pro)
+- **Portfolio:** [emon.pro](http://www.emon.pro)
 - **Languages:** Bengali (Native), Hindi (Native), English (Intermediate)
 
 <div align="center">
