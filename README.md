@@ -100,6 +100,14 @@ const emon = {
 
 ## 📈 GitHub Activity
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg">
+    <img alt="GitHub Jet Heatmap" src="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg" width="100%">
+  </picture>
+</p>
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&border_radius=12" height="165"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=maremon7415&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=ff6e96&currStreakLabel=a78bfa&border_radius=12" height="165"/>
