@@ -174,24 +174,18 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 ---
 
-### 📈 Activity & Engineering Pulse
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg">
-    <img alt="GitHub Jet Heatmap" src="https://raw.githubusercontent.com/maremon7415/maremon7415/main/github-jet.svg" width="100%">
-  </picture>
-</p>
+### 📈 Activity & Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maremon7415&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=818cf8&icon_color=818cf8&text_color=94a3b8&border_radius=10" height="160" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maremon7415&theme=tokyonight&hide_border=true&background=0b0f19&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&border_radius=10" height="160" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=maremon7415&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0b0f19&title_color=818cf8&icon_color=818cf8&text_color=94a3b8&border_radius=10" height="170" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://streak-stats.demolab.com/?user=maremon7415&hide_border=true&background=0b0f19&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&currStreakNum=ffffff&sideNums=ffffff&sideLabels=94a3b8&dates=64748b&border_radius=10" height="170" alt="GitHub Streak" />
 </div>
 
-<div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maremon7415&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0f19&title_color=818cf8&text_color=94a3b8&border_radius=10&langs_count=8" height="145" alt="Top Languages" />
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=maremon7415&layout=compact&hide_border=true&bg_color=0b0f19&title_color=818cf8&text_color=94a3b8&border_radius=10&langs_count=6" height="150" alt="Top Languages" />
 </div>
 
 ---
