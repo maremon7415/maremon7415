@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 185" width="100%" height="185" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="subtleLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0" />
+      <stop offset="50%" stop-color="#334155" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+    </filter>
+  </defs>
+
+  <style>
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'SF Mono', 'Courier New', monospace;
+    }
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      fill: #f8fafc;
+      letter-spacing: -0.5px;
+    }
+    .prompt {
+      font-size: 26px;
+      font-weight: 700;
+      fill: #818cf8;
+    }
+    .role {
+      font-size: 15px;
+      font-weight: 500;
+      fill: #94a3b8;
+      letter-spacing: 0.2px;
+    }
+    .tagline {
+      font-size: 13px;
+      font-weight: 400;
+      fill: #64748b;
+    }
+    .header-bar {
+      font-size: 12px;
+      font-weight: 500;
+      fill: #64748b;
+    }
+    .status-text {
+      font-size: 11px;
+      font-weight: 600;
+      fill: #34d399;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- Ambient Glow behind card -->
+  <circle cx="425" cy="90" r="140" fill="#6366f1" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Main Terminal Card Frame -->
+  <rect x="2" y="2" width="846" height="181" rx="14" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top Window Header Bar -->
+  <line x1="2" y1="38" x2="848" y2="38" stroke="url(#subtleLine)" stroke-width="1" />
+  
+  <!-- Window Controls -->
+  <circle cx="24" cy="20" r="5.5" fill="#ef4444" opacity="0.8" />
+  <circle cx="42" cy="20" r="5.5" fill="#f59e0b" opacity="0.8" />
+  <circle cx="60" cy="20" r="5.5" fill="#10b981" opacity="0.8" />
+
+  <!-- Window Breadcrumb -->
+  <text x="86" y="24" class="mono header-bar">maremon7415 / developer.profile.ts</text>
+
+  <!-- Status Pill (Top Right) -->
+  <rect x="680" y="11" width="146" height="18" rx="9" fill="#064e3b" fill-opacity="0.4" stroke="#059669" stroke-width="0.8" />
+  <circle cx="692" cy="20" r="3.5" fill="#34d399" />
+  <text x="702" y="23" class="mono status-text">AVAILABLE FOR WORK</text>
+
+  <!-- Title / Name -->
+  <text x="32" y="86" class="mono prompt">❯ </text>
+  <text x="56" y="86" class="mono title">MD. Emon Miah</text>
+
+  <!-- Highlight Pill / Role -->
+  <text x="56" y="118" class="mono role">Full-Stack Software Engineer <tspan fill="#6366f1">•</tspan> Next.js <tspan fill="#6366f1">·</tspan> TypeScript <tspan fill="#6366f1">·</tspan> AI Systems</text>
+
+  <!-- Terminal Description Tagline -->
+  <text x="56" y="148" class="mono tagline">Crafting production-grade web applications, real-time architectures &amp; voice AI agents.</text>
+
+  <!-- Bottom Accent Gradient Line -->
+  <rect x="20" y="181" width="810" height="2" fill="url(#accentGrad)" opacity="0.6" rx="1" />
+</svg>

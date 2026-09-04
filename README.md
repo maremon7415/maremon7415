@@ -1,11 +1,15 @@
 <div align="center">
 
-<!-- Minimalist Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:0b0f19,50:111827,100:0b0f19&height=180&section=header&text=MD.%20Emon%20Miah&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Full-Stack%20Software%20Engineer%20%E2%80%A2%20Next.js%20%C2%B7%20TypeScript%20%C2%B7%20AI%20Systems&descAlignY=62&descSize=16&descColor=94a3b8" alt="MD. Emon Miah Banner" />
+<!-- Developer Terminal Header Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/main/header.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/maremon7415/maremon7415/main/header.svg" alt="MD. Emon Miah Terminal Banner" />
+</picture>
 
-<!-- Dynamic Typist -->
+<!-- Dynamic Monospace Typist -->
 <a href="https://emon.pro">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1500&color=818CF8&center=true&vCenter=true&width=550&height=35&lines=Architecting+scalable+full-stack+web+applications;Specialized+in+Next.js+(App+Router)+%26+TypeScript;Engineering+real-time+architectures+%26+voice+AI+agents;Designing+clean%2C+accessible%2C+and+performant+interfaces" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1500&color=818CF8&center=true&vCenter=true&width=550&height=35&lines=Architecting+scalable+full-stack+web+applications;Specialized+in+Next.js+(App+Router)+%26+TypeScript;Engineering+real-time+architectures+%26+voice+AI+agents;Designing+clean%2C+accessible%2C+and+performant+interfaces" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -31,7 +35,7 @@
 
 ---
 
-### ⚡ Executive Summary
+### ❯ Executive Summary
 
 I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently building modern web applications at **Lilium Info Tech**. I focus on engineering reliable, scalable, and responsive platforms with **Next.js**, **TypeScript**, and modern cloud architectures.
 
@@ -41,7 +45,7 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 ---
 
-### 🛠️ Technical Capabilities
+### ❯ Core Architecture & Stack
 
 <table>
   <tr>
@@ -97,7 +101,7 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 ---
 
-### 🚀 Featured Engineering Projects
+### ❯ Flagship Deployments
 
 <table>
   <tr>
@@ -174,7 +178,7 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 ---
 
-### 📈 Activity & Metrics
+### ❯ Activity & Metrics
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=maremon7415&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0b0f19&title_color=818cf8&icon_color=818cf8&text_color=94a3b8&border_radius=10" height="170" alt="GitHub Stats" />
@@ -190,7 +194,7 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 ---
 
-### 💼 Career & Education
+### ❯ Engineering Path
 
 ```
 💼 Professional Experience
@@ -209,7 +213,7 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 <div align="center">
 
-### 🤝 Let’s Connect & Collaborate
+### ❯ Connect & Collaborate
 
 Whether you're looking to build an AI-powered product, consult on full-stack architecture, or collaborate on open-source software — my inbox is always open.
 
