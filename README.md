@@ -56,60 +56,19 @@ const emon = {
 };
 ```
 
-### Engineering Focus
-
-| Area                  | Focus                                                        |
-| --------------------- | ------------------------------------------------------------ |
-| **Frontend**          | Next.js App Router, React, TypeScript, RSC, state management |
-| **Backend**           | Node.js, Express, REST APIs, PostgreSQL, Prisma              |
-| **Real-Time**         | WebSockets, Socket.io, live systems, event-driven workflows  |
-| **AI**                | Voice agents, OpenAI API, Vapi.ai, AI-powered workflows      |
-| **Financial Systems** | Payment integrations, wallets, ledgers, settlement workflows |
-| **Infrastructure**    | Docker, Redis, Vercel, Cloudflare, CI/CD                     |
-
 ---
 
 ## Currently Building
 
-### San Uni Academy
+### San Uni Academy — Multi-Vendor LMS + Merchandise Store
 
-**Production Multi-Vendor Learning Management System + Merchandise Store**
-
-San Uni Academy is a production client project combining the discoverability of modern course marketplaces with a structured academic experience.
-
-The platform is being architected as a monorepo containing:
-
-* Public course marketplace
-* Student platform
-* Vendor and instructor portals
-* Super-admin control panel
-* REST API
-* Append-only financial ledger
-* Wallet-based vendor payouts
-* Vendor-scoped data isolation
-* Adaptive video streaming
-* Live-class integrations
-* Merchandise marketplace
-
-**Architecture**
-
-```text
-Next.js
-TypeScript
-Node.js / Express
-PostgreSQL
-Prisma
-Redis
-Docker
-Stripe
-Cloudflare R2
-```
+A production, client-signed Learning Management System combining the discoverability of modern course marketplaces with a structured academic experience — architected as a monorepo spanning a public marketplace, student platform, vendor/instructor portals, a super-admin panel, and a REST API with an append-only financial ledger, wallet-based payouts, vendor-scoped data isolation, adaptive video streaming, and live-class integrations.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,ts,express,postgres,prisma,redis,docker,stripe&theme=dark" alt="San Uni Academy technology stack" />
 </p>
 
-> Source code is private under client NDA. Architecture details can be discussed privately.
+> Source private under client NDA — happy to walk through the architecture on a call.
 
 ---
 
@@ -152,101 +111,16 @@ Cloudflare R2
 
 ## Selected Projects
 
-### Dent-Assist
-
-**AI Voice Dental Receptionist**
-
-An AI-powered dental assistant capable of handling consultation scheduling, symptom triage, and real-time natural voice conversations.
-
-`Next.js` · `Vapi.ai` · `PostgreSQL` · `OpenAI`
-
-[Source Code](https://github.com/maremon7415/dent_assis) · [Live Demo](https://dent-assist.emon.pro)
-
----
-
-### Evidence Vault
-
-**Compliance & Request Fulfillment SaaS**
-
-Enterprise SaaS interface for cryptographic evidence tracking, compliance artifact versioning, and secure buyer request resolution.
-
-`Next.js` · `TypeScript` · `Tailwind CSS`
-
-[Source Code](https://github.com/maremon7415/EvidenceVault_RequestFulfillmentUI)
-
----
-
-### CodeBridge Live
-
-**Real-Time Collaborative Development Workspace**
-
-A collaborative developer environment featuring live code execution, synchronized state, and interactive pair programming.
-
-`React` · `Node.js` · `WebSockets` · `Vercel`
-
-[Source Code](https://github.com/maremon7415/codeBridge_live) · [Live Demo](https://code-bridge-one.vercel.app)
-
----
-
-### Hasibul Gaming Point
-
-**E-Commerce & Automated Fulfillment Platform**
-
-A digital gaming goods platform with payment integration, automated Telegram fulfillment, and real-time inventory management.
-
-`Next.js 16` · `MongoDB` · `Zustand` · `ZiniPay`
-
-[Source Code](https://github.com/maremon7415/game-point) · [Live Platform](https://www.hasibulgamepoint.com)
-
----
-
-### Bismillah Agro
-
-**Agricultural Analytics Dashboard**
-
-A data-centric agricultural management platform providing live farm metrics, media processing, and inventory distribution tracking.
-
-`Next.js` · `Supabase` · `Cloudinary` · `PostgreSQL`
-
-[Source Code](https://github.com/maremon7415/bismillah_agro) · [Live Demo](https://bismillah-agro.emon.pro)
-
----
-
-### Chit-Chat
-
-**Low-Latency Real-Time Messaging Platform**
-
-A full-duplex messaging application featuring typing indicators, online presence, and message delivery acknowledgements.
-
-`React` · `Socket.io` · `Express` · `Node.js`
-
-[Source Code](https://github.com/maremon7415/chat_app) · [Live Demo](https://chitchat-1h8wz.sevalla.app)
-
----
-
-### Project Pulse
-
-**Automated Project Health Monitoring**
-
-A full-stack project monitoring platform with an automated health scoring engine that tracks repository activity and delivery risk.
-
-`Next.js` · `TypeScript` · `PostgreSQL`
-
-[Source Code](https://github.com/maremon7415/project-pulse)
-
----
-
-### E-Commerce Store
-
-**Full-Stack Clothing Storefront**
-
-A decoupled React storefront with product catalog, cart, and checkout functionality backed by a Node.js and Express API.
-
-`React` · `Node.js` · `Express` · `MongoDB`
-
-[Source Code](https://github.com/maremon7415/FullStackEcommece)
-
----
+| Project | Description | Stack | Links |
+| --- | --- | --- | --- |
+| **Dent-Assist** | AI voice dental receptionist — scheduling, symptom triage, live voice conversation | `Next.js` `Vapi.ai` `PostgreSQL` `OpenAI` | [Code](https://github.com/maremon7415/dent_assis) · [Demo](https://dent-assist.emon.pro) |
+| **Evidence Vault** | Enterprise SaaS for evidence tracking, artifact versioning, buyer request resolution | `Next.js` `TypeScript` `Tailwind` | [Code](https://github.com/maremon7415/EvidenceVault_RequestFulfillmentUI) |
+| **CodeBridge Live** | Real-time collaborative dev workspace with live code execution & synced state | `React` `Node.js` `WebSockets` | [Code](https://github.com/maremon7415/codeBridge_live) · [Demo](https://code-bridge-one.vercel.app) |
+| **Hasibul Gaming Point** | Digital goods store with payment gateway, Telegram bot fulfillment, live inventory | `Next.js 16` `MongoDB` `Zustand` | [Code](https://github.com/maremon7415/game-point) · [Live](https://www.hasibulgamepoint.com) |
+| **Bismillah Agro** | Agricultural analytics dashboard — live farm metrics & inventory tracking | `Next.js` `Supabase` `Cloudinary` | [Code](https://github.com/maremon7415/bismillah_agro) · [Demo](https://bismillah-agro.emon.pro) |
+| **Chit-Chat** | Low-latency messaging platform with typing indicators & delivery receipts | `React` `Socket.io` `Express` | [Code](https://github.com/maremon7415/chat_app) · [Demo](https://chitchat-1h8wz.sevalla.app) |
+| **Project Pulse** | Automated project health monitoring with a repository risk-scoring engine | `Next.js` `TypeScript` `PostgreSQL` | [Code](https://github.com/maremon7415/project-pulse) |
+| **E-Commerce Store** | Decoupled React storefront with catalog, cart & checkout on a Node/Express API | `React` `Node.js` `MongoDB` | [Code](https://github.com/maremon7415/FullStackEcommece) |
 
 <details>
 <summary><strong>More Projects & Experiments</strong></summary>
@@ -285,15 +159,23 @@ A decoupled React storefront with product catalog, cart, and checkout functional
 
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=maremon7415&layout=compact&hide_border=true&bg_color=0b0f19&title_color=818cf8&text_color=94a3b8&border_radius=10&langs_count=8" height="180" alt="Top languages" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=maremon7415&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4&row=2" height="180" alt="GitHub trophies" />
-
 </div>
 
 <br />
 
 <div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&theme=react-dark&hide_border=true&bg_color=0b0f19&color=818cf8&line=818cf8&point=ffffff&area=true&area_color=818cf8" width="100%" alt="GitHub activity graph" />
+</div>
+
+<br />
+
+<details>
+<summary><b>Deeper metrics — languages, habits & achievements</b></summary>
+<br />
+<div align="center">
   <img src="https://raw.githubusercontent.com/maremon7415/maremon7415/main/metrics.svg" width="100%" alt="Detailed GitHub metrics" />
 </div>
+</details>
 
 <br />
 
@@ -330,25 +212,6 @@ Bangladesh University
 2020 – 2024
 Diploma in Computer Science & Engineering
 Habiganj Polytechnic Institute
-```
-
----
-
-## Current Focus
-
-```text
-Building
-└── San Uni Academy — Production Multi-Vendor LMS + Merchandise Store
-
-Deepening
-├── Real-time systems
-├── Distributed queues
-└── Financial ledger architecture
-
-Open To
-├── Freelance projects
-├── Full-stack collaboration
-└── AI product development
 ```
 
 ---
