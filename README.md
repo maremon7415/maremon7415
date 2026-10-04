@@ -9,11 +9,14 @@ Building scalable web platforms, real-time systems, AI-powered applications, and
 <a href="https://emon.pro">
   <img src="https://img.shields.io/badge/Portfolio-emon.pro-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" alt="Portfolio" />
 </a>
-<a href="https://linkedin.com/in/maremon7415">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0284c7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a" alt="LinkedIn" />
+<a href="https://linkedin.com/in/emon15">
+  <img src="https://img.shields.io/badge/LinkedIn-emon15-0284c7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a" alt="LinkedIn" />
 </a>
-<a href="mailto:dev@emon.pro">
-  <img src="https://img.shields.io/badge/Email-dev@emon.pro-ea580c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Email" />
+<a href="https://facebook.com/maremon15">
+  <img src="https://img.shields.io/badge/Facebook-maremon15-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0f172a" alt="Facebook" />
+</a>
+<a href="mailto:maremon15@gmail.com">
+  <img src="https://img.shields.io/badge/Email-maremon15%40gmail.com-ea580c?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Email" />
 </a>
 
 <br />
@@ -95,10 +98,14 @@ A production, client-signed Learning Management System combining the discoverabi
 ### AI, Cloud & DevOps
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vercel,docker,figma&theme=dark" alt="Development and infrastructure tools" />
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,docker,aws,figma&theme=dark" alt="Development and infrastructure tools" />
 </p>
 
 <p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=0f172a" alt="AWS" />
+  <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=0f172a" alt="CI/CD" />
+  <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white&labelColor=0f172a" alt="PM2" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white&labelColor=0f172a" alt="Nginx" />
   <img src="https://img.shields.io/badge/Vapi.ai-8B5CF6?style=flat-square&logo=openai&logoColor=white&labelColor=0f172a" alt="Vapi.ai" />
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white&labelColor=0f172a" alt="OpenAI API" />
   <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white&labelColor=0f172a" alt="Stripe" />
@@ -224,16 +231,20 @@ If you have an interesting product or engineering problem, feel free to reach ou
 
 <div align="center">
 
-<a href="mailto:dev@emon.pro">
-  <img src="https://img.shields.io/badge/Start_a_Conversation-dev@emon.pro-6366f1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+<a href="mailto:maremon15@gmail.com">
+  <img src="https://img.shields.io/badge/Start_a_Conversation-maremon15%40gmail.com-6366f1?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
 <a href="https://emon.pro">
   <img src="https://img.shields.io/badge/Explore_Portfolio-emon.pro-0f172a?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
 </a>
 
-<a href="https://linkedin.com/in/maremon7415">
+<a href="https://linkedin.com/in/emon15">
   <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+
+<a href="https://facebook.com/maremon15">
+  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
 </a>
 
 <br /><br />
