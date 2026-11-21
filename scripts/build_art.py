@@ -53,7 +53,7 @@ def stats(days):
 
 
 def heatmap_svg(days, s):
-    cell, gap, left, top = 12, 3, 38, 56
+    cell, gap, left, top = 12, 3, 38, 36
     first = dt.date.fromisoformat(days[0]["date"])
     start = first - dt.timedelta(days=(first.weekday() + 1) % 7)  # back to Sunday
     weeks = (dt.date.fromisoformat(days[-1]["date"]) - start).days // 7 + 1
@@ -96,7 +96,6 @@ def heatmap_svg(days, s):
 .h{{font:600 13px {FONT};fill:#818cf8}}{anim}
 </style>
 <rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d"/>
-<text x="{left}" y="20" class="h"><tspan fill="#39d353">{USER}</tspan><tspan fill="#7d8590"> ~ % </tspan>contributions --last-year</text>
 {"".join(months)}{labels}{"".join(rects)}
 <text x="{width - 56 - 5 * 16 - 6}" y="{ly + 10}" class="t" text-anchor="end">less</text>{legend}
 <text x="{width - 20}" y="{ly + 10}" class="t" text-anchor="end">more</text>
