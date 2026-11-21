@@ -12,6 +12,8 @@ This repo is the GitHub profile page of MD. Emon Miah (github.com/maremon7415). 
 | `make preview` | render `README.md` exactly as GitHub does (`gh api markdown`) and serve it on localhost:8765 |
 | `make check` | build everything and confirm every SVG parses |
 | `make publish m="msg"` | commit and push (goes live) |
+| `make streak` | if GitHub shows no contribution today, refresh the art and push it (`--force` in `scripts/streak.sh` skips the check) |
+| `make streak-install` | systemd user timer runs `make streak` at 18:00, 21:00 and 23:15 Dhaka; a missed run fires on wake or boot. Log: `journalctl --user -u profile-streak` |
 
 Needs `python3`, `uv` (setup only) and the GitHub CLI `gh` signed in (preview, and a higher API limit for `make art`).
 
@@ -26,7 +28,7 @@ Needs `python3`, `uv` (setup only) and the GitHub CLI `gh` signed in (preview, a
 
 Text that is not data lives at the top of `scripts/build_sections.py`: `PROJECTS` (repo, title, one-line pitch, live link), `TOOLS`, `JOURNEY`. To add a project: add a row there, add a card cell to the `ls ~/projects` table in `README.md`, run `make art`.
 
-`.github/workflows/update-profile-art.yml` reruns both build scripts daily at 06:17 Dhaka time and commits the result. It cannot run while the GitHub account has a billing lock (every job fails with "account is locked due to a billing issue"); then run `make art && make publish m="refresh"` by hand.
+`.github/workflows/update-profile-art.yml` reruns both build scripts daily at 06:17 Dhaka time and commits the result. It cannot run while the GitHub account has a billing lock (every job fails with "account is locked due to a billing issue"); then the streak timer does the refresh whenever the laptop is on in the evening. The workflow commits as the owner's noreply address so its commits count on the contribution graph.
 
 ## Rules
 
