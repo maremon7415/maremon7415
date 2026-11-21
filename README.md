@@ -1,10 +1,6 @@
 <div align="center">
 
-# MD. Emon Miah
-
-### Full-Stack Software Engineer
-
-Building scalable web platforms, real-time systems, AI-powered applications, and reliable financial infrastructure.
+<img src="./header.svg" width="100%" alt="MD. Emon Miah, Full-Stack Software Engineer" />
 
 <a href="https://emon.pro">
   <img src="https://img.shields.io/badge/Portfolio-emon.pro-6366f1?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0f172a" alt="Portfolio" />
@@ -21,7 +17,7 @@ Building scalable web platforms, real-time systems, AI-powered applications, and
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1400&color=818CF8&center=true&vCenter=true&width=720&height=35&lines=Architecting+scalable+full-stack+web+applications;Building+San+Uni+Academy+%E2%80%94+a+multi-vendor+LMS;Specialized+in+Next.js+%26+TypeScript;Engineering+real-time+systems+%26+AI+agents;Designing+clean%2C+accessible%2C+performant+interfaces" alt="Typing introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&pause=1400&color=818CF8&center=true&vCenter=true&width=720&height=35&lines=Architecting+scalable+full-stack+web+applications;Building+San+Uni+Academy+%E2%80%94+a+production+LMS;Specialized+in+Next.js+%26+TypeScript;Engineering+real-time+systems+%26+AI+agents;Designing+clean%2C+accessible%2C+performant+interfaces" alt="Typing introduction" />
 
 </div>
 
@@ -33,42 +29,20 @@ I am a **Full-Stack Software Engineer** based in Dhaka, Bangladesh, currently bu
 
 My work focuses on building reliable and scalable platforms using **Next.js, TypeScript, Node.js, PostgreSQL, Prisma, and Redis**, with particular interest in real-time systems, AI integrations, payment infrastructure, and production-grade application architecture.
 
-```ts
-const emon = {
-  location: "Dhaka, Bangladesh",
-  role: "Full-Stack Software Engineer",
-  currentlyBuilding: "San Uni Academy — Multi-Vendor LMS",
-  stack: [
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "PostgreSQL",
-    "Prisma",
-    "Redis",
-  ],
-  focus: [
-    "Real-time systems",
-    "Voice AI agents",
-    "Payment & ledger architecture",
-  ],
-  openTo: [
-    "Freelance projects",
-    "Full-stack collaboration",
-    "AI product development",
-  ],
-};
-```
+<div align="center">
+  <img src="./info-card.svg" width="490" alt="neofetch-style card: role, stack, focus and availability" />
+</div>
 
 ---
 
 ## Currently Building
 
-### San Uni Academy — Multi-Vendor LMS + Merchandise Store
+### San Uni Academy — LMS + Merchandise Store
 
-A production, client-signed Learning Management System combining the discoverability of modern course marketplaces with a structured academic experience — architected as a monorepo spanning a public marketplace, student platform, vendor/instructor portals, a super-admin panel, and a REST API with an append-only financial ledger, wallet-based payouts, vendor-scoped data isolation, adaptive video streaming, and live-class integrations.
+A production, client-signed Learning Management System combining the discoverability of modern course marketplaces with a structured academic experience — architected as a monorepo spanning a public marketplace, student platform, a teacher studio, a super-admin panel, and a REST API with an append-only financial ledger, wallet-based payouts, owner-scoped data isolation, protected video streaming, and its own live classroom.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,ts,express,postgres,prisma,redis,docker,stripe&theme=dark" alt="San Uni Academy technology stack" />
+  <img src="https://skillicons.dev/icons?i=nextjs,ts,react,express,postgres,prisma,redis,aws&theme=dark" alt="San Uni Academy technology stack" />
 </p>
 
 > Source private under client NDA — happy to walk through the architecture on a call.
@@ -153,44 +127,10 @@ A production, client-signed Learning Management System combining the discoverabi
 ## GitHub Activity
 
 <div align="center">
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=maremon7415&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0b0f19&title_color=818cf8&icon_color=818cf8&text_color=94a3b8&border_radius=10" height="170" alt="GitHub statistics" />
-
-<img src="https://streak-stats.demolab.com/?user=maremon7415&hide_border=true&background=0b0f19&ring=818cf8&fire=818cf8&currStreakLabel=818cf8&currStreakNum=ffffff&sideNums=ffffff&sideLabels=94a3b8&dates=64748b&border_radius=10" height="170" alt="GitHub streak" />
-
+  <img src="./contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year with streaks" />
+  <br />
+  <sub>Built from my public contribution graph by <a href="./scripts/build_art.py">a small script</a>, refreshed daily by GitHub Actions.</sub>
 </div>
-
-<br />
-
-<div align="center">
-
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=maremon7415&layout=compact&hide_border=true&bg_color=0b0f19&title_color=818cf8&text_color=94a3b8&border_radius=10&langs_count=8" height="180" alt="Top languages" />
-
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maremon7415&theme=react-dark&hide_border=true&bg_color=0b0f19&color=818cf8&line=818cf8&point=ffffff&area=true&area_color=818cf8" width="100%" alt="GitHub activity graph" />
-</div>
-
-<br />
-
-<details>
-<summary><b>Deeper metrics — languages, habits & achievements</b></summary>
-<br />
-<div align="center">
-  <img src="https://raw.githubusercontent.com/maremon7415/maremon7415/main/metrics.svg" width="100%" alt="Detailed GitHub metrics" />
-</div>
-</details>
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maremon7415/maremon7415/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/maremon7415/maremon7415/output/github-contribution-grid-snake.svg" alt="GitHub contribution activity" width="100%" />
-</picture>
 
 ---
 
