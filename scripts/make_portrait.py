@@ -1,4 +1,4 @@
-"""Turn a photo on a plain light background into an animated pixel-art SVG.
+"""Turn a photo on a plain light background into an animated ASCII-art SVG.
 
 Run once per photo (needs Pillow): python3 scripts/make_portrait.py photo.jpg
 Writes portrait.svg. STATIC=1 writes a frame without animation.
@@ -7,124 +7,92 @@ import os
 import sys
 from collections import deque
 
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageFilter, ImageOps
 
-GRID, PX, W, H = 60, 6, 370, 372
-OX, OY = (W - GRID * PX) // 2, (H - GRID * PX) // 2
-COLORS = 18
+COLS, ROWS = 100, 53
+W, H = 370, 380
+CW, LH = 3.5, 6.8  # character cell, px
+OX, OY = (W - COLS * CW) / 2, 20
+RAMP = " .`:-=+*cs#%@"  # light to dark: dark photo pixels get dense characters
 STATIC = os.environ.get("STATIC") == "1"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FONT = "'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 
-def background(img):
-    """Flood-fill the near-white pixels that touch the border."""
-    px = img.load()
-    near_white = lambda x, y: min(px[x, y]) > 218
-    bg, todo = set(), deque()
-    for i in range(GRID):
-        for p in ((i, 0), (i, GRID - 1), (0, i), (GRID - 1, i)):
-            if near_white(*p) and p not in bg:
-                bg.add(p)
-                todo.append(p)
+def subject_mask(gray):
+    """Flood-fill the near-white background from the border; everything else is the subject."""
+    w, h = gray.size
+    px = gray.load()
+    bg = [[False] * w for _ in range(h)]
+    todo = deque((x, y) for x in range(w) for y in (0, h - 1)) + deque((x, y) for y in range(h) for x in (0, w - 1))
     while todo:
         x, y = todo.popleft()
-        for n in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-            if 0 <= n[0] < GRID and 0 <= n[1] < GRID and n not in bg and near_white(*n):
-                bg.add(n)
-                todo.append(n)
+        if 0 <= x < w and 0 <= y < h and not bg[y][x] and px[x, y] > 225:
+            bg[y][x] = True
+            todo.extend(((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)))
     return bg
 
 
-def hexc(rgb, k=1.0):
-    return "#%02x%02x%02x" % tuple(max(0, min(255, int(c * k))) for c in rgb)
-
-
-def build(photo):
-    img = Image.open(photo).convert("RGB")
+def ascii_rows(photo):
+    img = Image.open(photo).convert("L")
     side = min(img.size)
-    img = img.crop(((img.width - side) // 2, 0, (img.width + side) // 2, side))
-    img = ImageEnhance.Contrast(img).enhance(1.15)
-    small = img.resize((GRID, GRID), Image.LANCZOS)
-    bg = background(small)
-    pal = small.quantize(COLORS, method=Image.Quantize.MEDIANCUT).convert("RGB").load()
-    grid = {}
-    for y in range(GRID):
-        for x in range(GRID):
-            if (x, y) in bg:
-                continue
-            edge = any(n in bg or not (0 <= n[0] < GRID and 0 <= n[1] < GRID)
-                       for n in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)))
-            # dark outline on the silhouette, the classic pixel-art edge
-            grid[x, y] = hexc(pal[x, y], 0.45) if edge and y < GRID - 1 else hexc(pal[x, y])
-    return grid
+    img = img.crop(((img.width - side) // 2, 0, (img.width + side) // 2, side)).resize((230, 230))
+    bg = subject_mask(img)
+    subject = Image.new("L", img.size, 0)
+    sp = subject.load()
+    for y in range(230):
+        for x in range(230):
+            sp[x, y] = 0 if bg[y][x] else 255
+    # contrast from the subject's own histogram, then sharpen so eyes and mouth survive the downscale
+    img = ImageOps.equalize(img, mask=subject).filter(ImageFilter.UnsharpMask(2, 160, 2))
+    px = img.load()
+    for y in range(230):  # white out the background so it becomes spaces
+        for x in range(230):
+            if bg[y][x]:
+                px[x, y] = 255
+    small = img.resize((COLS, ROWS), Image.LANCZOS).load()
+    rows = []
+    for y in range(ROWS):
+        line = "".join(RAMP[(255 - small[x, y]) * (len(RAMP) - 1) // 255] for x in range(COLS))
+        rows.append(line)
+    return rows
 
 
-def rows_svg(grid):
-    out = []
-    for y in range(GRID):
-        runs, x = [], 0
-        while x < GRID:
-            c = grid.get((x, y))
-            start = x
-            while x < GRID and grid.get((x, y)) == c:
-                x += 1
-            if c:
-                runs.append(f'<rect x="{OX + start * PX}" y="{OY + y * PX}" width="{(x - start) * PX}" height="{PX}" fill="{c}"/>')
-        if runs:
-            delay = "" if STATIC else f' style="animation-delay:{y * 28}ms"'
-            side = "l" if y % 2 else "r"
-            out.append(f'<g class="row {side}"{delay}>{"".join(runs)}</g>')
-    return "".join(out)
-
-
-def blink_svg(grid, eyes):
-    """Cover each eye with the skin colour above it plus a lid line, shown briefly every few seconds."""
-    rects = []
-    for (ex, ey) in eyes:
-        skin = grid.get((ex, ey - 3), "#c58d6a")
-        rects.append(f'<rect x="{OX + (ex - 3) * PX}" y="{OY + (ey - 1) * PX}" width="{7 * PX}" height="{3 * PX}" fill="{skin}"/>')
-        rects.append(f'<rect x="{OX + (ex - 3) * PX}" y="{OY + (ey + 1) * PX}" width="{7 * PX}" height="{PX}" fill="#2a1d18"/>')
-    return f'<g class="blink" opacity="0">{"".join(rects)}</g>'
-
-
-def svg(grid):
-    # eye centres for this photo, in grid cells (avatar: eyes at about 40% and 61% across, 40% down)
-    eyes = [(24, 24), (36, 24)]
-    anim = "" if STATIC else """
-.row{animation:in .55s cubic-bezier(.2,.8,.2,1) both}
-.row.r{--d:24px}.row.l{--d:-24px}
-.blink{opacity:0;animation:blink 5s 3s infinite}
-.scan{animation:scan 4s 2.4s linear infinite}
-.glow{animation:glow 3s 2s ease-in-out infinite alternate}
-@keyframes in{from{opacity:0;transform:translateX(var(--d))}to{opacity:1;transform:none}}
-@keyframes blink{0%,93%,100%{opacity:0}95%,97%{opacity:1}}
-@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(400px)}}
-@keyframes glow{from{opacity:.25}to{opacity:.6}}
-@media (prefers-reduced-motion:reduce){.row,.blink,.scan,.glow{animation:none}.scan{display:none}}"""
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" shape-rendering="crispEdges" role="img" aria-label="Pixel-art portrait of MD. Emon Miah">
-<defs>
-<radialGradient id="halo"><stop offset="0" stop-color="#818cf8" stop-opacity=".55"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient>
-<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset=".5" stop-color="#38bdf8" stop-opacity=".18"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
-<pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".12"/></pattern>
-<clipPath id="frame"><rect width="{W}" height="{H}" rx="12"/></clipPath>
-</defs>
-<style>{anim}</style>
-<g clip-path="url(#frame)">
-<rect width="{W}" height="{H}" fill="#0d1117"/>
-<circle class="glow" cx="{W // 2}" cy="{H // 2 - 20}" r="160" fill="url(#halo)" opacity=".4"/>
-{rows_svg(grid)}
-{blink_svg(grid, eyes)}
-<rect width="{W}" height="{H}" fill="url(#lines)"/>
-<rect class="scan" y="0" width="{W}" height="40" fill="url(#beam)" transform="translate(0,-40)"/>
-</g>
-<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="12" fill="none" stroke="#30363d"/>
+def svg(rows):
+    clips, texts = [], []
+    for i, line in enumerate(rows):
+        if not line.strip():
+            continue
+        y = OY + (i + 1) * LH
+        esc = line.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        if STATIC:
+            texts.append(f'<text x="{OX}" y="{y:.1f}" textLength="{COLS * CW}" lengthAdjust="spacing" xml:space="preserve">{esc}</text>')
+            continue
+        clips.append(
+            f'<clipPath id="r{i}"><rect x="0" y="{y - LH:.1f}" width="0" height="{LH + 1:.1f}">'
+            f'<animate attributeName="width" from="0" to="{W}" dur=".55s" begin="{0.25 + i * 0.045:.2f}s" fill="freeze"/></rect></clipPath>'
+        )
+        texts.append(f'<text clip-path="url(#r{i})" x="{OX}" y="{y:.1f}" textLength="{COLS * CW}" lengthAdjust="spacing" xml:space="preserve">{esc}</text>')
+    done = 0.25 + len(rows) * 0.045 + 0.6
+    shine = "" if STATIC else f"""
+<mask id="band"><rect x="-120" y="0" width="120" height="{H}" fill="url(#bandg)">
+<animateTransform attributeName="transform" type="translate" values="0 0;{W + 240} 0;{W + 240} 0" keyTimes="0;.45;1" dur="6s" begin="{done:.1f}s" repeatCount="indefinite"/></rect></mask>
+<linearGradient id="bandg"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>"""
+    glow = "" if STATIC else '<use href="#art" fill="#39d353" mask="url(#band)"/>'
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="ASCII-art portrait of MD. Emon Miah">
+<defs>{"".join(clips)}{shine}</defs>
+<style>text{{font:6px {FONT};white-space:pre}}</style>
+<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="#0d1117" stroke="#30363d"/>
+<g id="art" fill="#c9d1d9">{"".join(texts)}</g>
+{glow}
 </svg>
 """
 
 
 if __name__ == "__main__":
-    g = build(sys.argv[1])
-    assert len(g) > GRID * GRID // 4, "background removal ate the subject"
+    rows = ascii_rows(sys.argv[1])
+    ink = sum(c != " " for r in rows for c in r)
+    assert ink > COLS * ROWS // 5, "background removal ate the subject"
     with open(os.path.join(ROOT, "portrait.svg"), "w") as f:
-        f.write(svg(g))
-    print(f"{len(g)} pixels")
+        f.write(svg(rows))
+    print("\n".join(rows[::3]))
