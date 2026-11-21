@@ -1,9 +1,5 @@
 <div align="center">
 
-<h3><code>maremon7415 ~ % contributions --last-year</code></h3>
-
-<img src="./skyline.svg" width="860" alt="Contributions over the last year as a 3D skyline; the tallest towers are the busiest days" />
-
 <h3><code>maremon7415 ~ % whoami</code></h3>
 
 <table>
@@ -15,6 +11,10 @@
 
 **MD. Emon Miah** · Full-stack engineer · Next.js, TypeScript, Node.js, PostgreSQL · real-time systems, voice AI, payments<br />
 Building [San Uni Academy](https://sanuniacademy.com), a production LMS with its own live classroom
+
+<h3><code>maremon7415 ~ % contributions --last-year</code></h3>
+
+<img src="./skyline.svg" width="860" alt="Contributions over the last year as a 3D skyline; the tallest towers are the busiest days" />
 
 <h3><code>maremon7415 ~ % ls ~/projects</code></h3>
 
