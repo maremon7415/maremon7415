@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 356" width="860" height="356" role="img" aria-label="Experience and education timeline">
+<style>
+.h{font:600 13px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;fill:#818cf8}
+.w{font:600 12px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;fill:#7d8590}
+.t{font:700 15px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;fill:#e6edf3}
+.o{font:12px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;fill:#9da7b3}
+.line{stroke-dasharray:400;animation:draw 1.4s .2s ease-out both}
+.item{animation:in .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes draw{from{stroke-dashoffset:400}to{stroke-dashoffset:0}}
+@keyframes in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.line,.item{animation:none}}
+</style>
+<rect x=".5" y=".5" width="859" height="355" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="30" class="h">$ cat ~/journey.log</text>
+<line class="line" x1="150" y1="70" x2="150" y2="292" stroke="#30363d" stroke-width="2"/>
+<g class="item" style="animation-delay:400ms"><circle cx="150" cy="70" r="9" fill="#0d1117" stroke="#818cf8" stroke-width="3"/><circle cx="150" cy="70" r="3" fill="#818cf8"/><text x="126" y="75" class="w" text-anchor="end">2024 – now</text><text x="178" y="70" class="t">Front-End Web Developer</text><text x="178" y="92" class="o"><tspan fill="#818cf8">Lilium Info Tech</tspan> · Production Next.js platforms, GSAP motion, modern UI architecture</text></g><g class="item" style="animation-delay:660ms"><circle cx="150" cy="144" r="9" fill="#0d1117" stroke="#38bdf8" stroke-width="3"/><circle cx="150" cy="144" r="3" fill="#38bdf8"/><text x="126" y="149" class="w" text-anchor="end">2023 – 2024</text><text x="178" y="144" class="t">Full-Stack Developer Intern</text><text x="178" y="166" class="o"><tspan fill="#38bdf8">IBCS PRIMEx</tspan> · Full-stack modules in Laravel, PHP and JavaScript</text></g><g class="item" style="animation-delay:920ms"><circle cx="150" cy="218" r="9" fill="#0d1117" stroke="#39d353" stroke-width="3"/><circle cx="150" cy="218" r="3" fill="#39d353"/><text x="126" y="223" class="w" text-anchor="end">2024 – 2028</text><text x="178" y="218" class="t">B.Sc. Computer Science &amp; Technology</text><text x="178" y="240" class="o"><tspan fill="#39d353">Bangladesh University</tspan> · In progress</text></g><g class="item" style="animation-delay:1180ms"><circle cx="150" cy="292" r="9" fill="#0d1117" stroke="#f59e0b" stroke-width="3"/><circle cx="150" cy="292" r="3" fill="#f59e0b"/><text x="126" y="297" class="w" text-anchor="end">2020 – 2024</text><text x="178" y="292" class="t">Diploma in Computer Science &amp; Engineering</text><text x="178" y="314" class="o"><tspan fill="#f59e0b">Habiganj Polytechnic Institute</tspan> · Completed</text></g>
+</svg>
