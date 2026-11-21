@@ -1,0 +1,12 @@
+[Unit]
+Description=Check the GitHub streak three times each evening
+
+[Timer]
+OnCalendar=*-*-* 18:00:00
+OnCalendar=*-*-* 21:00:00
+OnCalendar=*-*-* 23:15:00
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

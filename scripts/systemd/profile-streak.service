@@ -1,0 +1,7 @@
+[Unit]
+Description=Keep the GitHub contribution streak (profile art refresh)
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/projects/readme/scripts/streak.sh

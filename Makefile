@@ -5,7 +5,7 @@ PHOTO   ?= assets/photo.jpg
 PORT    ?= 8765
 TOKEN    = $(shell gh auth token 2>/dev/null)
 
-.PHONY: help setup art portrait preview check publish
+.PHONY: help setup art portrait preview check publish streak streak-install
 
 help:
 	@echo "make setup            one-time: create .venv with Pillow (for the portrait only)"
@@ -14,6 +14,8 @@ help:
 	@echo "make preview          render README.md like GitHub does and serve it on http://localhost:$(PORT)/.preview.html"
 	@echo "make check            build everything and confirm every SVG parses"
 	@echo "make publish m=\"msg\"  commit everything and push (goes live on github.com/maremon7415)"
+	@echo "make streak           if GitHub shows no contribution today, refresh the art and push it"
+	@echo "make streak-install   run make streak automatically at 18:00, 21:00 and 23:15 (systemd user timer)"
 
 setup:
 	uv venv --quiet $(VENV)
@@ -43,3 +45,13 @@ publish:
 	git add -A
 	git commit -m "$(m)"
 	git push
+
+streak:
+	scripts/streak.sh
+
+streak-install:
+	mkdir -p $(HOME)/.config/systemd/user
+	cp scripts/systemd/profile-streak.service scripts/systemd/profile-streak.timer $(HOME)/.config/systemd/user/
+	systemctl --user daemon-reload
+	systemctl --user enable --now profile-streak.timer
+	systemctl --user list-timers profile-streak.timer
