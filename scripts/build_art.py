@@ -1,4 +1,4 @@
-"""Build the profile art: contrib-heatmap.svg and stats.svg, both from live data.
+"""Build the profile art: stats.svg from live contribution data.
 
 Standard library only. Run: python3 scripts/build_art.py
 Set STATIC=1 to write frames without animation (for previews).
@@ -50,58 +50,6 @@ def stats(days):
     best = max(days, key=lambda d: d["count"])
     active = sum(1 for d in days if d["count"])
     return {"total": total, "current": current, "longest": longest, "best": best, "active": active}
-
-
-def heatmap_svg(days, s):
-    cell, gap, left, top = 12, 3, 38, 36
-    first = dt.date.fromisoformat(days[0]["date"])
-    start = first - dt.timedelta(days=(first.weekday() + 1) % 7)  # back to Sunday
-    weeks = (dt.date.fromisoformat(days[-1]["date"]) - start).days // 7 + 1
-    width = left + weeks * (cell + gap) + 20
-    height = top + 7 * (cell + gap) + 34
-    rects, months, seen = [], [], set()
-    for d in days:
-        day = dt.date.fromisoformat(d["date"])
-        col, row = (day - start).days // 7, (day.weekday() + 1) % 7
-        x, y = left + col * (cell + gap), top + row * (cell + gap)
-        delay = f' style="animation-delay:{col * 18}ms"' if not STATIC else ""
-        rects.append(
-            f'<rect class="c" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" '
-            f'fill="{PALETTE[d["level"]]}"{delay}><title>{d["count"]} on {d["date"]}</title></rect>'
-        )
-        key = (day.year, day.month)
-        if day.day <= 7 and key not in seen and col < weeks - 1:
-            seen.add(key)
-            months.append(f'<text x="{x}" y="{top - 10}" class="t">{day.strftime("%b")}</text>')
-    labels = "".join(
-        f'<text x="{left - 8}" y="{top + r * (cell + gap) + 10}" class="t" text-anchor="end">{n}</text>'
-        for r, n in ((1, "Mon"), (3, "Wed"), (5, "Fri"))
-    )
-    ly = top + 7 * (cell + gap) + 12
-    legend = "".join(
-        f'<rect x="{width - 56 - (5 - i) * 16}" y="{ly}" width="12" height="12" rx="3" fill="{c}"/>'
-        for i, c in enumerate(PALETTE)
-    )
-    stats_svg = f'<text x="{left}" y="{ly + 10}" class="t"><tspan fill="#e6edf3" font-weight="700">{s['total']:,}</tspan> contributions in the last year</text>'
-    anim = "" if STATIC else """
-.c{animation:pop .5s cubic-bezier(.2,.8,.2,1) both;transform-box:fill-box;transform-origin:center}
-.s{animation:up .6s ease-out both}
-@keyframes pop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
-@keyframes up{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.c,.s{animation:none}}"""
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-label="{s['total']} GitHub contributions in the last year">
-<style>
-.t{{font:11px {FONT};fill:#7d8590}}
-.n{{font:700 16px {FONT};fill:#e6edf3}}
-.h{{font:600 13px {FONT};fill:#818cf8}}{anim}
-</style>
-<rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d"/>
-{"".join(months)}{labels}{"".join(rects)}
-<text x="{width - 56 - 5 * 16 - 6}" y="{ly + 10}" class="t" text-anchor="end">less</text>{legend}
-<text x="{width - 20}" y="{ly + 10}" class="t" text-anchor="end">more</text>
-{stats_svg}
-</svg>
-"""
 
 
 def number_svg(text, x, base, size, color, delay):
@@ -190,8 +138,6 @@ def main():
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
     with open(os.path.join(ROOT, "data", "contributions.json"), "w") as f:
         json.dump({"stats": s, "days": days}, f, indent=1)
-    with open(os.path.join(ROOT, "contrib-heatmap.svg"), "w") as f:
-        f.write(heatmap_svg(days, s))
     with open(os.path.join(ROOT, "stats.svg"), "w") as f:
         f.write(stats_card(days, s))
     print(f"{len(days)} days, {s['total']} contributions, streak {s['current']}d (best {s['longest']}d)")
