@@ -1,14 +1,14 @@
 {
  "stats": {
-  "total": 4138,
-  "current": 51,
+  "total": 4139,
+  "current": 1,
   "longest": 51,
   "best": {
    "date": "2026-11-17",
    "level": 4,
    "count": 278
   },
-  "active": 214
+  "active": 215
  },
  "days": [
   {
@@ -1840,6 +1840,11 @@
    "date": "2026-11-23",
    "level": 0,
    "count": 0
+  },
+  {
+   "date": "2026-11-24",
+   "level": 1,
+   "count": 1
   }
  ]
 }
